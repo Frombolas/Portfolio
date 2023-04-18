@@ -1,0 +1,111 @@
+/* Reset de margens e paddings para garantir consistência em diferentes navegadores */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f5f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilo para a barra de navegação */
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #1b2936;
+}
+
+/* Estilo para a seção de início */
+#inicio {
+    background-color: #34495e;
+    color: #fff;
+    padding: 60px;
+    text-align: center;
+}
+
+/* Estilo para a seção de sobre mim */
+#sobre-mim {
+    background-color: #fff;
+    padding: 60px;
+    text-align: center;
+}
+
+.perfil img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.descricao h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.descricao p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.descricao ul {
+    list-style-type: none;
+}
+
+.descricao ul li {
+    margin-bottom: 5px;
+}
+
+/* Estilo para a seção de trabalhos */
+#trabalhos {
+    background-color: #f0f5f9;
+    padding: 60px;
+    text-align: center;
+}
+
+/* Estilo para a seção de certificados */
+#certificados {
+    background-color: #e6eff5;
+    padding: 60px;
+    text-align: center;
+}
+
+/* Estilo para o rodapé e a seção de contato */
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para o container com largura máxima de 1200px e centralizado */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
